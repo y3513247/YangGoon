@@ -121,6 +121,25 @@ function selectThumImages () {
  		left: 301px;
  		z-index: 2;  
 	}
+	#listView2{
+		position: absolute;
+		top: 30px;
+		left: 1350px;
+	} 
+	
+	#viewList{
+		width:100%;
+		height:100%;
+	}
+	#viewList > #patientList{
+		color:red;
+		width:100%;
+		height:30px;
+		display:inline-block;
+		border:0px;
+		padding:0px 0px 0px 5px;
+		background-color:transparent;
+	}
 </style>
 </head> 
 <body>
