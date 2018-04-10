@@ -12,6 +12,7 @@
 <script src="/Pra01/main/myAjax.js"></script>
 <script src="/Pra01/main/chart.js"></script>
 <script src="/Pra01/main/canvas.js"></script>
+<script src="/Pra01/main/wait.js"></script>
 <jsp:include page="/side/sideBar.jsp"></jsp:include>
 
 <title>Insert title here</title> 
@@ -120,6 +121,25 @@ function selectThumImages () {
  		left: 301px;
  		z-index: 2;  
 	}
+	#listView2{
+		position: absolute;
+		top: 30px;
+		left: 1350px;
+	} 
+	
+	#viewList{
+		width:100%;
+		height:100%;
+	}
+	#viewList > #patientList{
+		color:red;
+		width:100%;
+		height:30px;
+		display:inline-block;
+		border:0px;
+		padding:0px 0px 0px 5px;
+		background-color:transparent;
+	}
 </style>
 </head> 
 <body>
@@ -159,5 +179,17 @@ function selectThumImages () {
 		<div id="mainView"></div>	
 		<canvas id="canvas" width="794" height="1123"></canvas>	
 	</div> 
+	
+	<div id="listView2">
+			<div id="listView2button" align="center">
+			<span class="wait" onclick="selectPatient()">대기</span> 
+			|
+			<span class="pre" onclick="selectPre()">처방</span>
+			|
+			<span class="config" a href="#" onclick="javascript:selectConfig();">설정</span>
+			</div>
+			<hr>
+			<div id="viewList"></div>
+	</div>
 </body> 
 </html>
