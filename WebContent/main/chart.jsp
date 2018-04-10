@@ -96,8 +96,7 @@ function selectThumImages () {
 		position: absolute;
 		top: 0;
 		left: 301px;
-		background-color:#7AC3CC;
-    	 
+		background-color:#7AC3CC;    	 
 	}
 	#mainView {	
 		width: 210mm;
@@ -105,14 +104,14 @@ function selectThumImages () {
 		border: solid 1px black;
 		position: absolute;
 		top: 60px;
-		left: 300px;
+		left: 301px;
 		z-index: 1;
 	}	 
 	#mainView img {
 		width: 100%;
 		height: 100%;		
 	}	 
- 
+  
 	#canvas {			 
 		background-color: rgba(255, 255, 255, 0); 
  		position: absolute; 
@@ -145,7 +144,7 @@ function selectThumImages () {
 			</div>		 
 		</div>
 		<div id="waitingList">
-			
+						 
 		</div>
 		<div id="editorList">
 			mode : <span id="mode"></span> 
