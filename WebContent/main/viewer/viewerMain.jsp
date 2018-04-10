@@ -93,7 +93,7 @@
 <!-- 			<div id="patientInfo" style="width: 78%">환자번호 : 10101   이름 : 양승현  주민번호 : 930912-11*****</div> -->
 			<div id="patientInfo" style="width: 100%; height: 100%;">
 				<div id="pNumber" style="width: 15%; height: 100%;">환자번호 : 10101</div>
-				<div id="pName" style="width: 17%; height: 100%;">이름 : 양승현</div>
+				<div id="pName" style="width: 17%; height: 100%;">이름 : 안녕하세요</div>
 				<div id="pJumin" style="width: 15%; height: 100%;">주민번호 : 930912-11*****</div>
 				<div id="userInfo" style="width: 35%; height: 100%; text-align: right;">${userId }</div>
 			</div>			
@@ -119,7 +119,7 @@
 		</div>
 		
 		<div class="mainView">
-			
+			dfdf
 		</div>
 		
 		
