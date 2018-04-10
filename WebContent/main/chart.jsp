@@ -89,62 +89,12 @@ function selectThumImages () {
 		}
 	});
 } 
-</script>
-<style>
-	#waitingList {
-		width: 210.6mm;
-		height: 30px;		 
-		position: absolute;
-		top: 0;
-		left: 301px;
-		background-color:#7AC3CC;
-    	 
-	}
-	#mainView {	
-		width: 210mm;
-		height: 297mm;	
-		border: solid 1px black;
-		position: absolute;
-		top: 60px;
-		left: 300px;
-		z-index: 1;
-	}	 
-	#mainView img {
-		width: 100%;
-		height: 100%;		
-	}	 
  
-	#canvas {			 
-		background-color: rgba(255, 255, 255, 0); 
- 		position: absolute; 
- 		top: 31px;
- 		left: 301px;
- 		z-index: 2;  
-	}
-	#listView2{
-		position: absolute;
-		top: 30px;
-		left: 1350px;
-	} 
-	
-	#viewList{
-		width:100%;
-		height:100%;
-	}
-	#viewList > #patientList{
-		color:red;
-		width:100%;
-		height:30px;
-		display:inline-block;
-		border:0px;
-		padding:0px 0px 0px 5px;
-		background-color:transparent;
-	}
-</style>
+</script>
+ 
 </head> 
 <body>
-	<div class="chartWrap">
-	
+	<div class="chartWrap">	
 		<div id="chartMenu">		 	 
 			<form id="chartForm" class="switch switch-blue">
 		      <input type="radio" class="switch-input" name="view2" value="1" id="thumOff" checked>
@@ -165,7 +115,7 @@ function selectThumImages () {
 			</div>		 
 		</div>
 		<div id="waitingList">
-			
+						 
 		</div>
 		<div id="editorList">
 			mode : <span id="mode"></span> 
